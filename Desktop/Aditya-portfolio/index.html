@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aditya Mishra — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </div>
+
+    <div class="logo">Aditya's portfolio</div>
+
+    <nav class="nav">
+      <button id="menu-toggle" class="menu-toggle" aria-label="Open menu">☰</button>
+      <ul id="nav-list" class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <img class="hero-illus" src="img/img-hero.jpg" alt="Developer illustration">
+        
+        <h1>Hi, I'm <span class="accent">Aditya Mishra</span></h1>
+       
+
+        <h2 class="typing" aria-live="polite"></h2>
+        <p class="hero-desc">A passionate frontend developer who builds responsive, interactive web experiences. I enjoy solving problems and turning ideas into beautiful UIs.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#projects">View Projects</a>
+          <a href="files/AdityaMishra_CV.pdf" download class="btn">Download CV</a>
+
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Aditya56199" target="_blank" aria-label="GitHub"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+          <a href="https://www.linkedin.com/in/" target="_blank" aria-label="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn"></a>
+          <a href="https://leetcode.com/u/Adityamishra333/" target="_blank" aria-label="LeetCode"><img src="https://leetcode.com/static/images/LeetCode_logo_rvs.png" alt="LeetCode"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-inner">
+       
+        <img src="img/img-Adi.jpg" alt="Aditya Mishra" class="profile-photo">
+        <div class="about-text">
+          <p>I'm a Computer Science student and front-end developer. I love building user-friendly interfaces and learning new web technologies. I study algorithms, build projects like sorting visualizers, and enjoy creating clean UI/UX.</p>
+
+          <div class="education-card">
+            <h4>Education</h4>
+            <p>IMS Engineering College — Computer Science &amp; Engineering</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+          <p>HTML5</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+          <p>CSS3</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+          <p>JavaScript</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+          <p>Java</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+          <p>ReactJS</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+          <p>MySQL</p>
+        </div>
+      </div>
+
+      <h3 class="subtitle">Soft Skills</h3>
+      <div class="soft-skills">
+        <div class="skill-row"><span>Problem Solving</span><div class="bar"><div style="width:90%"></div></div></div>
+        <div class="skill-row"><span>Teamwork</span><div class="bar"><div style="width:95%"></div></div></div>
+        <div class="skill-row"><span>Leadership</span><div class="bar"><div style="width:80%"></div></div></div>
+        <div class="skill-row"><span>Time Management</span><div class="bar"><div style="width:90%"></div></div></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-card">
+        <div class="project-banner" style="background-image:url('https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=1200&q=60')">
+          <a class="project-code" href="https://aditya56199.github.io/Sorting-visualizer/" target="_blank" aria-label="View code">Code</a>
+        </div>
+        <div class="project-content">
+          <h3>Sorting Visualizer</h3>
+          <p>A visual teaching tool that demonstrates sorting algorithms (Bubble, Merge, Quick, etc.). Users can change array size and speed to see how each algorithm behaves.</p>
+          <p class="tech">HTML • CSS • JavaScript</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-banner" style="background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=60')">
+          <a class="project-code" href="https://aditya56199.github.io/Aditya-s-portfolio/" target="_blank" aria-label="View code">Code</a>
+        </div>
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>This portfolio demonstrates responsive design, animations, and project showcases — built to present skills and projects professionally.</p>
+          <p class="tech">HTML • CSS • JavaScript </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="email">
+          <h4>Email</h4>
+          <a href="mailto:adimishrajk22@gmail.com">adimishrajk22@gmail.com</a>
+        </div>
+
+        <div class="contact-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="linkedin">
+          <h4>LinkedIn</h4>
+          <a href="https://www.linkedin.com/in/" target="_blank">linkedin.com/in/</a>
+        </div>
+
+        <div class="contact-card">
+          <img src="https://leetcode.com/static/images/LeetCode_logo_rvs.png" alt="leetcode">
+          <h4>LeetCode</h4>
+          <a href="https://leetcode.com/u/Adityamishra333/" target="_blank">Adityamishra333</a>
+        </div>
+
+        <div class="contact-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="github">
+          <h4>GitHub</h4>
+          <a href="https://github.com/Aditya56199" target="_blank">Aditya56199</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK TOGETHER -->
+    <section class="work">
+      <div class="work-card">
+        <h2>Let's work together!</h2>
+        <p>I'm currently available for full-time opportunities and freelance work. If you'd like to collaborate, send me an email.</p>
+        <a class="btn" href="mailto:adimishrajk22@gmail.com">Send me an email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2025 Aditya Mishra • Built with HTML, CSS & JavaScript
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
